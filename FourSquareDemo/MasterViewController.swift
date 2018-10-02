@@ -89,10 +89,10 @@ class MasterViewController: UITableViewController, CLLocationManagerDelegate {
         }
         
         // For use when the app is open & in the background
-        locationManager.requestAlwaysAuthorization()
+        //locationManager.requestAlwaysAuthorization()
         
         // For use when the app is open
-        //locationManager.requestWhenInUseAuthorization()
+        locationManager.requestWhenInUseAuthorization()
         
         // If location services is enabled get the users location
         if CLLocationManager.locationServicesEnabled() {
