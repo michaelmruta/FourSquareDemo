@@ -98,7 +98,7 @@
 				TargetAttributes = {
 					F335B0F1216312C1001D4C8A = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = TTAWM56998;
+						DevelopmentTeam = 29Z5R7VL8N;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -266,12 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TTAWM56998;
+				DEVELOPMENT_TEAM = 29Z5R7VL8N;
 				INFOPLIST_FILE = FourSquareDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.michaelangeloruta.FourSquareDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-.FourSquareDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -279,12 +280,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TTAWM56998;
+				DEVELOPMENT_TEAM = 29Z5R7VL8N;
 				INFOPLIST_FILE = FourSquareDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.michaelangeloruta.FourSquareDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-.FourSquareDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -307,6 +309,7 @@
 				F335B108216312C2001D4C8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
